@@ -1,20 +1,26 @@
 {
-    "name": "io.extendreality.tilia.{scope}.{feature}.{platform?}",
-    "displayName": "Tilia {scope}.{feature}.{platform?}",
-    "description": "{Description of feature.}",
+    "name": "io.extendreality.tilia.input.unityinputsystem",
+    "displayName": "Tilia Input UnityInputSystem",
+    "description": "Input wrappers for the Unity Input System and a collection of common input prefabs.",
     "version": "1.0.0",
-    "unity": "2018.3",
-    "unityRelease": "10f1",
+    "unity": "2019.1",
+    "unityRelease": "0f1",
     "keywords": [
-        "pattern"
+        "pattern",
+        "input",
+        "controller",
+        "vr",
+        "ar",
+        "xr",
+        "spatial"
     ],
-    "homepage": "https://github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}/",
+    "homepage": "https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/",
     "bugs": {
-        "url": "https://github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}/issues"
+        "url": "https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/issues"
     },
     "repository": {
         "type": "git",
-        "url": "ssh://git@github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}.git"
+        "url": "ssh://git@github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem.git"
     },
     "license": "MIT",
     "author": {
@@ -23,7 +29,8 @@
         "url": "https://github.com/ExtendRealityLtd"
     },
     "dependencies": {
-        "io.extendreality.zinnia.unity": "X.Y.Z"
+        "io.extendreality.zinnia.unity": "1.31.1",
+        "com.unity.inputsystem": "1.0.2"
     },
     "files": [
         "*.md",
@@ -31,6 +38,8 @@
         "*.asmdef",
         "*.xml",
         "Documentation",
-        "Runtime"
+        "Editor",
+        "Runtime",
+        "docfx.json"
     ]
 }
