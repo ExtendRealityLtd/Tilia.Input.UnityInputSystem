@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.0.2](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v1.0.1...v1.0.2) (2021-04-01)
+
+#### Bug Fixes
+
+* **Samples:** switch mappings for right thumbstick and touchpad ([bfa349e](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/commit/bfa349e082b93e141632b206cf7ab0f77f32d894))
+  > The mappings for the right thumbstick and touchpad were the wrong way round where the thumbstick would call the touchpad actions and vice versa.
+  > 
+  > This has now been put the right way round.
+
 ### [1.0.1](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v1.0.0...v1.0.1) (2021-03-31)
 
 #### Miscellaneous Chores
