@@ -1449,7 +1449,7 @@ MonoBehaviour:
     m_ActionName: Generic XR/Right Grip Axis
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6349443295941967410}
+      - m_Target: {fileID: 6349443294390955334}
         m_TargetAssemblyTypeName: Zinnia.Data.Type.Transformation.Transformer`3[[UnityEngine.InputSystem.InputAction+CallbackContext,
           Unity.InputSystem
         m_MethodName: DoTransform
@@ -1466,7 +1466,7 @@ MonoBehaviour:
     m_ActionName: Generic XR/Right Thumbstick Touched
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6349443294150343230}
+      - m_Target: {fileID: 6349443295079677248}
         m_TargetAssemblyTypeName: Zinnia.Data.Type.Transformation.Transformer`3[[UnityEngine.InputSystem.InputAction+CallbackContext,
           Unity.InputSystem
         m_MethodName: DoTransform
@@ -1483,7 +1483,7 @@ MonoBehaviour:
     m_ActionName: Generic XR/Right Thumbstick Pressed
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6349443295214854028}
+      - m_Target: {fileID: 6349443296093132328}
         m_TargetAssemblyTypeName: Zinnia.Data.Type.Transformation.Transformer`3[[UnityEngine.InputSystem.InputAction+CallbackContext,
           Unity.InputSystem
         m_MethodName: DoTransform
@@ -1500,7 +1500,7 @@ MonoBehaviour:
     m_ActionName: Generic XR/Right Thumbstick Axis
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6349443294390955334}
+      - m_Target: {fileID: 6349443295941967410}
         m_TargetAssemblyTypeName: Zinnia.Data.Type.Transformation.Transformer`3[[UnityEngine.InputSystem.InputAction+CallbackContext,
           Unity.InputSystem
         m_MethodName: DoTransform
@@ -1517,7 +1517,7 @@ MonoBehaviour:
     m_ActionName: Generic XR/Right Touchpad Touched
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6349443295079677248}
+      - m_Target: {fileID: 6349443294150343230}
         m_TargetAssemblyTypeName: Zinnia.Data.Type.Transformation.Transformer`3[[UnityEngine.InputSystem.InputAction+CallbackContext,
           Unity.InputSystem
         m_MethodName: DoTransform
@@ -1534,7 +1534,7 @@ MonoBehaviour:
     m_ActionName: Generic XR/Right Touchpad Pressed
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6349443296093132328}
+      - m_Target: {fileID: 6349443295214854028}
         m_TargetAssemblyTypeName: Zinnia.Data.Type.Transformation.Transformer`3[[UnityEngine.InputSystem.InputAction+CallbackContext,
           Unity.InputSystem
         m_MethodName: DoTransform
@@ -1707,7 +1707,7 @@ Transform:
   - {fileID: 6349443295079677250}
   - {fileID: 6349443296093132329}
   m_Father: {fileID: 6349443295763352111}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6349443294565216502
 GameObject:
@@ -2334,7 +2334,7 @@ Transform:
   - {fileID: 6349443294150343224}
   - {fileID: 6349443295214854030}
   m_Father: {fileID: 6349443295763352111}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6349443294978025572
 GameObject:
@@ -4536,8 +4536,8 @@ Transform:
   - {fileID: 6349443294858256233}
   - {fileID: 6349443295108793429}
   - {fileID: 6349443294970482768}
-  - {fileID: 6349443294972691469}
   - {fileID: 6349443294510288753}
+  - {fileID: 6349443294972691469}
   m_Father: {fileID: 6349443295771529675}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
