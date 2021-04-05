@@ -29,9 +29,16 @@
         "url": "https://github.com/ExtendRealityLtd"
     },
     "dependencies": {
-        "io.extendreality.zinnia.unity": "1.33.0",
+        "io.extendreality.zinnia.unity": "1.34.1",
         "com.unity.inputsystem": "1.0.2"
     },
+    "samples": [
+        {
+        "displayName": "GenericXR",
+        "description": "Controller Mappings for Generic XR Controllers",
+        "path": "Samples~/GenericXR"
+        }
+    ],
     "files": [
         "*.md",
         "*.meta",
