@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.0](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v1.0.2...v1.1.0) (2021-04-07)
+
+#### Features
+
+* **Samples:** move samples to package manager Samples~ directory ([ccac418](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/commit/ccac4186d644bddb5d482df31b48cad26027d94f))
+  > The Unity 2019.1 Package Manager allows for samples to be located in a special `Samples~` root directory which allows the samples to be optionally included with the package at install time. As the Unity Input System package requires at least 2019.1 then this functionality can be used in this package.
+  > 
+  > The existing `GenericXR` sample has now been moved to this new directory so it can be optionally added to the project if required.
+
 ### [1.0.2](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v1.0.1...v1.0.2) (2021-04-01)
 
 #### Bug Fixes
