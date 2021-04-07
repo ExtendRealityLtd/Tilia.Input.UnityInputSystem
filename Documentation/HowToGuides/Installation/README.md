@@ -71,6 +71,8 @@ The `Tilia Input UnityInputSystem` package will now be available in your Unity p
 
 The package will now also show up in the Unity Package Manager UI. From then on the package can be updated by selecting the package in the Unity Package Manager and clicking on the `Update` button or using the version selection UI.
 
+Any sample Input mappings will also be available to download from the `Samples` section on the package in the Unity Package Manager UI. Any installed samples will show up in the `Project -> Assets -> Samples -> Tilia Input UnityInputSystem` directory.
+
 [Unity Input System]: https://docs.unity3d.com/Manual/com.unity.inputsystem.html
 [Unity]: https://unity3d.com/
 [Unity Package Manager]: https://docs.unity3d.com/Manual/upm-ui.html
