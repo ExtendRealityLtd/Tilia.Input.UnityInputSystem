@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v1.1.0...v1.1.1) (2021-04-15)
+
+#### Bug Fixes
+
+* **package.json:** include Samples~ directory in package build ([0bd3e43](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/commit/0bd3e43371545c1818f36be3349303d247eb780f))
+  > The Samples~ directory was not included in the package build so was being omitted from the final build.
+
 ## [1.1.0](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v1.0.2...v1.1.0) (2021-04-07)
 
 #### Features
