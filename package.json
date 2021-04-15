@@ -47,6 +47,7 @@
         "Documentation",
         "Editor",
         "Runtime",
-        "docfx.json"
+        "docfx.json",
+        "Samples~"
     ]
 }
