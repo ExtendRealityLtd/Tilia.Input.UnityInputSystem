@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.1.9](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v1.1.8...v1.1.9) (2021-08-22)
+
+#### Bug Fixes
+
+* **Transformation:** provide deadzone value for float ([6e7c7de](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/commit/6e7c7de31c7669c4c4b9df9ea2070d33e9d491f7))
+  > There was an issue where the minimum float value for an axis could be so low that it just wasn't reported by Unity as an action meaning any subsequent action may not get updated due to the value not being recognised as changed.
+  > 
+  > This fix adds in an extra deadzone value to the float that can be used to set the absolute minimum reported value to consider as zero.
+
 ### [1.1.8](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v1.1.7...v1.1.8) (2021-07-21)
 
 #### Miscellaneous Chores
