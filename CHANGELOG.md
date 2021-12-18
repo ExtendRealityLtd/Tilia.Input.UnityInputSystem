@@ -1,5 +1,18 @@
 # Changelog
 
+### [1.1.11](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v1.1.10...v1.1.11) (2021-12-18)
+
+#### Bug Fixes
+
+* **Samples:** ensure axis values are always broadcast ([0a30d6d](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/commit/0a30d6d8a3bfc56614946778219214638a0be7c6))
+  > There was an issue where axis values would sometimes not be broadcast if the axis was released quickly back to its origin value. This seems to be because the `performed` context does not get called when the axis value changes rapidly, but instead the `canceled` context is called instead.
+  > 
+  > To prevent this from causing an issue, all of the samples axis context processors have now been set to process every context to ensure any slight or rapid changes are picked up.
+  > 
+  > The input mappings for the axes also now have relevant deadzone processors on them to ensure the min and max values are reached even if the physical axis control cannot reach or report those absolute min or max values.
+  > 
+  > Because of the use of the built in processes, it means the custom deadzone calculation in the CallbackContextToFloat is no longer required as this should just be handled with the standard deadzone processor anyway.
+
 ### [1.1.10](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v1.1.9...v1.1.10) (2021-12-03)
 
 #### Miscellaneous Chores
