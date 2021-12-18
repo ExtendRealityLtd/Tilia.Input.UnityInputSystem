@@ -515,7 +515,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  contextToProcess: 2
+  contextToProcess: -1
 --- !u!1 &6349443294227618252
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,7 +1964,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  contextToProcess: 2
+  contextToProcess: -1
 --- !u!1 &6349443294806420875
 GameObject:
   m_ObjectHideFlags: 0
@@ -2797,7 +2797,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  contextToProcess: 2
+  contextToProcess: -1
 --- !u!1 &6349443295184921974
 GameObject:
   m_ObjectHideFlags: 0
@@ -2917,7 +2917,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  contextToProcess: 2
+  contextToProcess: -1
 --- !u!1 &6349443295214854025
 GameObject:
   m_ObjectHideFlags: 0
@@ -3037,7 +3037,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  contextToProcess: 2
+  contextToProcess: -1
 --- !u!1 &6349443295252543439
 GameObject:
   m_ObjectHideFlags: 0
@@ -4501,7 +4501,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  contextToProcess: 2
+  contextToProcess: -1
 --- !u!1 &6349443295763352110
 GameObject:
   m_ObjectHideFlags: 0
@@ -4695,7 +4695,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  contextToProcess: 2
+  contextToProcess: -1
 --- !u!1 &6349443295896242458
 GameObject:
   m_ObjectHideFlags: 0
@@ -5335,4 +5335,4 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  contextToProcess: 2
+  contextToProcess: -1
