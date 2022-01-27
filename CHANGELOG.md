@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.17](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v1.1.16...v1.1.17) (2022-01-27)
+
+#### Bug Fixes
+
+* **Samples:** replace missing actions reference in prefab ([737a317](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/commit/737a317ac406acb711fa546f2bfb78c35ca22c92))
+  > The GenericXR Mappings prefab had a missing reference in Actions because the GUID was incorrect. This has now been updated.
+
 ### [1.1.16](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v1.1.15...v1.1.16) (2022-01-17)
 
 #### Miscellaneous Chores
