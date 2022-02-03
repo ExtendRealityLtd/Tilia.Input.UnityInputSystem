@@ -3,7 +3,9 @@
     "rootNamespace": "",
     "references": [
         "Zinnia.Runtime",
-        "Unity.InputSystem"
+        "Unity.InputSystem",
+        "Unity.XR.OpenXR",
+        "UnityEngine.SpatialTracking"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -15,6 +17,17 @@
     ],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.openxr",
+            "expression": "",
+            "define": "OPENXR_DEFINED"
+        },
+        {
+            "name": "com.unity.xr.legacyinputhelpers",
+            "expression": "",
+            "define": "SPATIALTRACKING_DEFINED"
+        }
+    ],
     "noEngineReferences": false
 }

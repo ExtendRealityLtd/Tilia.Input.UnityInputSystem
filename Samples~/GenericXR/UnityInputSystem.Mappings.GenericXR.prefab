@@ -1,5 +1,224 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &566441079618378404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 739077023205377979}
+  - component: {fileID: 7047725517169502499}
+  - component: {fileID: 5427761934402346220}
+  m_Layer: 0
+  m_Name: Left_DevicePose
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &739077023205377979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566441079618378404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6349443294569046938}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7047725517169502499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566441079618378404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52612c71e93d4ff42af970964d570c3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Transformed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5427761934402346220}
+        m_TargetAssemblyTypeName: Tilia.Input.UnityInputSystem.OpenXRPoseProvider,
+          Tilia.Input.UnityInputSystem.Runtime
+        m_MethodName: set_Pose
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  contextToProcess: -1
+--- !u!114 &5427761934402346220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566441079618378404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11aee1b2c3e65e146a46e2b6910ad65c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &852225884154932221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5558250325619824909}
+  - component: {fileID: 8193877132387753822}
+  - component: {fileID: 1263169938619307965}
+  m_Layer: 0
+  m_Name: Right_DevicePose
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5558250325619824909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852225884154932221}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6349443295763352111}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8193877132387753822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852225884154932221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52612c71e93d4ff42af970964d570c3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Transformed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1263169938619307965}
+        m_TargetAssemblyTypeName: Tilia.Input.UnityInputSystem.OpenXRPoseProvider,
+          Tilia.Input.UnityInputSystem.Runtime
+        m_MethodName: set_Pose
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  contextToProcess: -1
+--- !u!114 &1263169938619307965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852225884154932221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11aee1b2c3e65e146a46e2b6910ad65c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1885815672570052005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1867975493591260252}
+  - component: {fileID: 4958848255710861533}
+  - component: {fileID: 5739052605312020465}
+  m_Layer: 0
+  m_Name: Right_PointerPose
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1867975493591260252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885815672570052005}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6349443295763352111}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4958848255710861533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885815672570052005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52612c71e93d4ff42af970964d570c3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Transformed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5739052605312020465}
+        m_TargetAssemblyTypeName: Tilia.Input.UnityInputSystem.OpenXRPoseProvider,
+          Tilia.Input.UnityInputSystem.Runtime
+        m_MethodName: set_Pose
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  contextToProcess: -1
+--- !u!114 &5739052605312020465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885815672570052005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11aee1b2c3e65e146a46e2b6910ad65c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6349443294073595842
 GameObject:
   m_ObjectHideFlags: 0
@@ -958,7 +1177,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 4ad928a61d9612a4685b1d2ab5c52c85, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: 4ad928a61d9612a4685b1d2ab5c52c85,
+    type: 3}
   m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -1549,6 +1769,74 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: e9abf06e-24a8-473e-a98b-b8a401b65f31
     m_ActionName: Generic XR/Right Touchpad Axis
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7047725517169502499}
+        m_TargetAssemblyTypeName: Zinnia.Data.Type.Transformation.Transformer`3[[UnityEngine.InputSystem.InputAction+CallbackContext,
+          Unity.InputSystem
+        m_MethodName: DoTransform
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 90ef643f-25c6-4548-bd32-38bff2c9fc36
+    m_ActionName: Generic XR/Left Device Pose
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 449744939397563330}
+        m_TargetAssemblyTypeName: Zinnia.Data.Type.Transformation.Transformer`3[[UnityEngine.InputSystem.InputAction+CallbackContext,
+          Unity.InputSystem
+        m_MethodName: DoTransform
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 1411ad33-641d-4b1f-9007-3f05fa220270
+    m_ActionName: Generic XR/Left Pointer Pose
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8193877132387753822}
+        m_TargetAssemblyTypeName: Zinnia.Data.Type.Transformation.Transformer`3[[UnityEngine.InputSystem.InputAction+CallbackContext,
+          Unity.InputSystem
+        m_MethodName: DoTransform
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c7f651b0-283e-4ed0-a8ea-f69ddcce66ac
+    m_ActionName: Generic XR/Right Device Pose
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4958848255710861533}
+        m_TargetAssemblyTypeName: Zinnia.Data.Type.Transformation.Transformer`3[[UnityEngine.InputSystem.InputAction+CallbackContext,
+          Unity.InputSystem
+        m_MethodName: DoTransform
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 2659c727-d5f0-4637-8c6e-eb4082e14dd6
+    m_ActionName: Generic XR/Right Pointer Pose
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Generic XR
@@ -1778,6 +2066,8 @@ Transform:
   - {fileID: 6349443294978892252}
   - {fileID: 6349443295896242459}
   - {fileID: 6349443294565216503}
+  - {fileID: 739077023205377979}
+  - {fileID: 1798476622757649401}
   m_Father: {fileID: 6349443295771529675}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4538,6 +4828,8 @@ Transform:
   - {fileID: 6349443294970482768}
   - {fileID: 6349443294510288753}
   - {fileID: 6349443294972691469}
+  - {fileID: 5558250325619824909}
+  - {fileID: 1867975493591260252}
   m_Father: {fileID: 6349443295771529675}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5336,3 +5628,76 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   contextToProcess: -1
+--- !u!1 &8235695626063864548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1798476622757649401}
+  - component: {fileID: 449744939397563330}
+  - component: {fileID: 9114567478960203893}
+  m_Layer: 0
+  m_Name: Left_PointerPose
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1798476622757649401
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8235695626063864548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6349443294569046938}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &449744939397563330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8235695626063864548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52612c71e93d4ff42af970964d570c3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Transformed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 9114567478960203893}
+        m_TargetAssemblyTypeName: Tilia.Input.UnityInputSystem.OpenXRPoseProvider,
+          Tilia.Input.UnityInputSystem.Runtime
+        m_MethodName: set_Pose
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  contextToProcess: -1
+--- !u!114 &9114567478960203893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8235695626063864548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11aee1b2c3e65e146a46e2b6910ad65c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

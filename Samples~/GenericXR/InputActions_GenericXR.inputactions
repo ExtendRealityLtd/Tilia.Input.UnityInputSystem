@@ -276,6 +276,38 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Left Device Pose",
+                    "type": "Value",
+                    "id": "90ef643f-25c6-4548-bd32-38bff2c9fc36",
+                    "expectedControlType": "Pose",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Left Pointer Pose",
+                    "type": "Value",
+                    "id": "1411ad33-641d-4b1f-9007-3f05fa220270",
+                    "expectedControlType": "Pose",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Right Device Pose",
+                    "type": "Value",
+                    "id": "c7f651b0-283e-4ed0-a8ea-f69ddcce66ac",
+                    "expectedControlType": "Pose",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Right Pointer Pose",
+                    "type": "Value",
+                    "id": "2659c727-d5f0-4637-8c6e-eb4082e14dd6",
+                    "expectedControlType": "Pose",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -650,6 +682,50 @@
                     "processors": "StickDeadzone",
                     "groups": "",
                     "action": "Right Thumbstick Axis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c272fa7a-f92d-4e63-a068-3a1bfe547850",
+                    "path": "<XRController>{LeftHand}/devicePose",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Device Pose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d10c2af7-8fc5-47c0-b873-427d1e6878f5",
+                    "path": "<XRController>{LeftHand}/pointer",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Pointer Pose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e3514e6a-0a04-4449-be34-645e8ec2d7e7",
+                    "path": "<XRController>{RightHand}/pointer",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Pointer Pose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4acc67a5-1fa4-4056-94a8-2f2ddd367a7f",
+                    "path": "<XRController>{RightHand}/devicePose",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Device Pose",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
