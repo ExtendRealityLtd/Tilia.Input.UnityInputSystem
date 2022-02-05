@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.18](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v1.1.17...v1.1.18) (2022-02-05)
+
+#### Miscellaneous Chores
+
+* **deps:** bump io.extendreality.zinnia.unity from 1.44.0 to 1.45.0 ([80af8b5](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/commit/80af8b59b9dc7a3a5fb49fba10505451d2f4d045))
+  > Bumps [io.extendreality.zinnia.unity](https://github.com/ExtendRealityLtd/Zinnia.Unity) from 1.44.0 to 1.45.0. - [Release notes](https://github.com/ExtendRealityLtd/Zinnia.Unity/releases) - [Changelog](https://github.com/ExtendRealityLtd/Zinnia.Unity/blob/master/CHANGELOG.md) - [Commits](https://github.com/ExtendRealityLtd/Zinnia.Unity/compare/v1.44.0...v1.45.0)
+
 ### [1.1.17](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v1.1.16...v1.1.17) (2022-01-27)
 
 #### Bug Fixes
