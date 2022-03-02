@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v1.1.19...v1.2.0) (2022-03-02)
+
+#### Features
+
+* **package.json:** add information urls to package ([9f0a26d](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/commit/9f0a26d499a32a885cba7755f9d81e2f8c767cc7))
+  > The changelog, documentation and license url has been added to the package.json as these are used within the Unity package manager.
+
 ### [1.1.19](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v1.1.18...v1.1.19) (2022-02-14)
 
 #### Miscellaneous Chores
