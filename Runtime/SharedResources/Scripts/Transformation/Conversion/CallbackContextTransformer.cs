@@ -1,8 +1,7 @@
 namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
 {
-    using Malimbe.PropertySerializationAttribute;
-    using Malimbe.XmlDocumentationAttribute;
     using System;
+    using UnityEngine;
     using UnityEngine.Events;
     using UnityEngine.InputSystem;
     using Zinnia.Data.Attribute;
@@ -35,12 +34,24 @@ namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
             Canceled = 1 << 2
         }
 
+        [Tooltip("The ContextType event to process the transformation for.")]
+        [SerializeField]
+        [UnityFlags]
+        private ContextType contextToProcess = ContextType.Performed;
         /// <summary>
         /// The <see cref="ContextType"/> event to process the transformation for.
         /// </summary>
-        [Serialized]
-        [field: DocumentedByXml, UnityFlags]
-        public ContextType ContextToProcess { get; set; } = ContextType.Performed;
+        public ContextType ContextToProcess
+        {
+            get
+            {
+                return contextToProcess;
+            }
+            set
+            {
+                contextToProcess = value;
+            }
+        }
 
         /// <summary>
         /// Processes the given input into the output result as long as the context event is allowed to be processed based on the <see cref="ContextToProcess"/> value.
