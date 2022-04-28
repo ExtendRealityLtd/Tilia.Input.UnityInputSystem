@@ -1,7 +1,5 @@
 namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
 {
-    using Malimbe.PropertySerializationAttribute;
-    using Malimbe.XmlDocumentationAttribute;
     using System;
     using UnityEngine.Events;
     using UnityEngine.InputSystem;
