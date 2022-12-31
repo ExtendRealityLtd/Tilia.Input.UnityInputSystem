@@ -1,5 +1,26 @@
 # Changelog
 
+## [2.1.0](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v2.0.4...v2.1.0) (2022-12-31)
+
+#### Features
+
+* **InputActionProperty:** add functionality based around InputActions ([68d15b8](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/commit/68d15b8f8c76b2edaa8b0af26ed8fffb2e26e50a))
+  > The InputActionProperty of the Unity Input System allows for listening to Input System Action events directly based off an input system action reference or from a direct binding.
+  > 
+  > This is cleaner and easier to understand than the CallbackContext with Unity Events so it has been used to create some new prefabs in the samples directory.
+  > 
+  > The new InputActionPropertyVelocityTracker will track velocity of an input system action which can be based off OpenXR device data, meaning the velocity reported should be compatible with the specific device rather than trying to use estimations.
+  > 
+  > The new InputActionPropertyTransformer can also be used in place of the CallbackContextTransformer to provide a direct reference to an Input Action (or direct binding) which can be used to pick up action input directly within the component rather than having to go through the PlayerInput script and pass the context via a Unity Event to the CallbackContextTransformer.
+  > 
+  > The InputActions_GenericXR.inputactions mapping has also been updated to include pose data for the HMD, controllers and pointer, which includes position, rotation and velocity information.
+  > 
+  > This has all formalised in the creation of two new prefabs:
+  > 
+  > * UnityInputSystem.Poses.GenericXR.prefab - contains tracked poses for the new pose data. * UnityInputSystem.InputActionMappings.GenericXR.prefab - contains all of the input buttons, axis data, etc for the generic controllers using the new InputActionPropertyTransformer, which makes it easier to see how to customise the system.
+  > 
+  > This has also meant the UnityInputSystem.Mappings.GenericXR.prefab has been renamed to UnityInputSystem.CallbackContextMappings.GenericXR.prefab and this should not technically be considered as deprecated as it may still be useful or even the preferred usage, but by default the new InputActionMappings.GenericXR.prefab should be used.
+
 ### [2.0.4](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v2.0.3...v2.0.4) (2022-06-16)
 
 #### Miscellaneous Chores
