@@ -7,7 +7,7 @@
 
 ## Details
 
-# Enum CallbackContextTransformer<TOutput, TEvent>.ContextType
+# Enum InputSystemTransformer<TInput, TOutput, TEvent>.ContextType
 
 The InputAction.CallbackContext event context.
 
