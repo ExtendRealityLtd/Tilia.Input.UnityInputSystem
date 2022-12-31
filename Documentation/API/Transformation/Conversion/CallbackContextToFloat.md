@@ -15,14 +15,15 @@ Transforms a InputAction.CallbackContext to a System.Single.
 ##### Inheritance
 
 * System.Object
+* [InputSystemTransformer]<InputAction.CallbackContext, System.Single, [CallbackContextToFloat.UnityEvent]\>
 * [CallbackContextTransformer]<System.Single, [CallbackContextToFloat.UnityEvent]\>
 * CallbackContextToFloat
 
 ##### Inherited Members
 
-[CallbackContextTransformer<Single, CallbackContextToFloat.UnityEvent>.ContextToProcess]
-
 [CallbackContextTransformer<Single, CallbackContextToFloat.UnityEvent>.ProcessResult(InputAction.CallbackContext)]
+
+[InputSystemTransformer<InputAction.CallbackContext, Single, CallbackContextToFloat.UnityEvent>.ContextToProcess]
 
 ##### Namespace
 
@@ -58,10 +59,11 @@ protected override float Process(InputAction.CallbackContext input)
 | --- | --- |
 | System.Single | The transformed value. |
 
+[InputSystemTransformer]: InputSystemTransformer-3.md
 [CallbackContextTransformer]: CallbackContextTransformer-2.md
 [CallbackContextToFloat.UnityEvent]: CallbackContextToFloat.UnityEvent.md
-[CallbackContextTransformer<Single, CallbackContextToFloat.UnityEvent>.ContextToProcess]: CallbackContextTransformer-2.md#Tilia_Input_UnityInputSystem_Transformation_Conversion_CallbackContextTransformer_2_ContextToProcess
 [CallbackContextTransformer<Single, CallbackContextToFloat.UnityEvent>.ProcessResult(InputAction.CallbackContext)]: CallbackContextTransformer-2.md#Tilia_Input_UnityInputSystem_Transformation_Conversion_CallbackContextTransformer_2_ProcessResult_InputAction_CallbackContext_
+[InputSystemTransformer<InputAction.CallbackContext, Single, CallbackContextToFloat.UnityEvent>.ContextToProcess]: InputSystemTransformer-3.md#Tilia_Input_UnityInputSystem_Transformation_Conversion_InputSystemTransformer_3_ContextToProcess
 [Tilia.Input.UnityInputSystem.Transformation.Conversion]: README.md
 [Inheritance]: #Inheritance
 [Namespace]: #Namespace

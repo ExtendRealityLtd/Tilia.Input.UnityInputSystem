@@ -6,12 +6,85 @@
             "id": "7ce50ab5-f6ac-4d66-8708-ca75c3712c77",
             "actions": [
                 {
+                    "name": "Left Device Position",
+                    "type": "Value",
+                    "id": "b6885a32-53b6-49eb-8e7d-9c9ad4ed458c",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Left Device Rotation",
+                    "type": "Value",
+                    "id": "e2fab288-ca87-4b0e-bd52-356fb936cc52",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Left Device Velocity",
+                    "type": "Value",
+                    "id": "4facac82-eff3-492b-82c8-00572253494c",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Left Device Angular Velocity",
+                    "type": "Value",
+                    "id": "5ee42830-0994-4a7e-8140-9fafa4ec4a76",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Left Device Acceleration",
+                    "type": "Value",
+                    "id": "888fa71e-070d-4309-a428-2c6994c71a01",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Left Device Angular Acceleration",
+                    "type": "Value",
+                    "id": "6755d377-0a48-41cd-b4db-c6372503ec5f",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Left Device Pointer Position",
+                    "type": "Value",
+                    "id": "c0ffef73-8fd7-4a8f-9b3c-1fd5b688ea67",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Left Device Pointer Rotation",
+                    "type": "Value",
+                    "id": "303f6596-a8b5-49c5-8485-bc9ac959a7e3",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
                     "name": "Left Home Pressed",
                     "type": "Button",
                     "id": "ed2073bd-c6fe-42a1-926b-6b767f89baff",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Left Menu Pressed",
@@ -19,15 +92,17 @@
                     "id": "f3f131f7-587f-4037-9f17-790aaa2fe45c",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
-                    "name": "Left Back",
+                    "name": "Left Back Pressed",
                     "type": "Button",
                     "id": "1d94b983-91af-4800-af13-3f567a212d64",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Left Primary Button Touched",
@@ -35,7 +110,8 @@
                     "id": "c9716f43-0b1f-452b-a15e-30dcc9ba1066",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Left Primary Button Pressed",
@@ -43,7 +119,8 @@
                     "id": "a2ae52c3-7207-4fbc-852f-2021ccf32835",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Left Secondary Button Touched",
@@ -51,7 +128,8 @@
                     "id": "b27b2f10-e9b3-4894-a9ac-dbe2846646c8",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Left Secondary Button Pressed",
@@ -59,7 +137,8 @@
                     "id": "c85167c1-42bf-43b5-92ae-3024a9c617f0",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Left Trigger Pressed",
@@ -67,7 +146,8 @@
                     "id": "7176fbf2-d63b-4d5d-8456-844dd623e3ab",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Left Trigger Axis",
@@ -75,7 +155,8 @@
                     "id": "2dca5048-5503-4ac8-8a38-ae40abcf1566",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Left Grip Pressed",
@@ -83,7 +164,8 @@
                     "id": "277fdbb0-245f-4345-90e9-53c99611e8a4",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Left Grip Axis",
@@ -91,7 +173,8 @@
                     "id": "701f1a32-37a5-45f2-ade5-91cb8bd5b0d7",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Left Thumbstick Touched",
@@ -99,7 +182,8 @@
                     "id": "7368d246-9783-420f-9e21-4a3f37fc7885",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Left Thumbstick Pressed",
@@ -107,7 +191,8 @@
                     "id": "5a0ee7b4-0d59-4764-8ddf-216b339ddf7b",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Left Thumbstick Axis",
@@ -115,7 +200,8 @@
                     "id": "a7c86e97-579b-4eb7-9024-93694615effd",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Left Touchpad Touched",
@@ -123,7 +209,8 @@
                     "id": "dfd596b0-b8da-44af-8e71-8a65f6dda55b",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Left Touchpad Pressed",
@@ -131,7 +218,8 @@
                     "id": "02ba91d9-5bcc-4bd1-91ae-4a51bc4d5281",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Left Touchpad Axis",
@@ -139,7 +227,80 @@
                     "id": "91307b7f-1208-4338-8088-b0977ddf7def",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Right Device Position",
+                    "type": "Value",
+                    "id": "3b3c0e4f-511d-4081-8a93-435f741dcdc6",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Right Device Rotation",
+                    "type": "Value",
+                    "id": "b21482af-99d0-4e86-9035-0aba403d7edb",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Right Device Velocity",
+                    "type": "Value",
+                    "id": "b91eff29-7f90-445e-a391-93576a5f1276",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Right Device Angular Velocity",
+                    "type": "Value",
+                    "id": "1f95deb1-a67a-416a-8623-47b29dc2fb37",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Right Device Acceleration",
+                    "type": "Value",
+                    "id": "5df8048b-6a0d-4e35-992b-76cf447bbb7d",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Right Device Angular Acceleration",
+                    "type": "Value",
+                    "id": "f00608bb-9b21-48ae-ac58-97373d4b67ab",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Right Device Pointer Position",
+                    "type": "Value",
+                    "id": "58069eb9-40bb-42cb-8c06-549928b78ce4",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Right Device Pointer Rotation",
+                    "type": "Value",
+                    "id": "71982357-fea6-4469-9f28-0df60f94b352",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Right Home Pressed",
@@ -147,7 +308,8 @@
                     "id": "07b254a7-9c6a-41b4-95b5-1e56485edb57",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Right Menu Pressed",
@@ -155,15 +317,17 @@
                     "id": "12b063ad-5653-420f-bdc7-250f855857dc",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
-                    "name": "Right Back",
+                    "name": "Right Back Pressed",
                     "type": "Button",
                     "id": "0ebf30f2-3478-4c1e-934b-2d609c06b090",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Right Primary Button Touched",
@@ -171,7 +335,8 @@
                     "id": "78e4abd5-2b5e-4998-8bd9-7daaacfd167b",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Right Primary Button Pressed",
@@ -179,7 +344,8 @@
                     "id": "fc363e57-1a27-4ca8-9bf3-8fe9d8650467",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Right Secondary Button Touched",
@@ -187,7 +353,8 @@
                     "id": "32e567d4-fe6b-492e-a3e6-3000e6d6c318",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Right Secondary Button Pressed",
@@ -195,7 +362,8 @@
                     "id": "5fdacbea-e09b-4f3b-9e9e-f4f81348a3db",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Right Trigger Pressed",
@@ -203,7 +371,8 @@
                     "id": "5ef10729-9944-4972-8e35-95405ba95f1e",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Right Trigger Axis",
@@ -211,7 +380,8 @@
                     "id": "7610e470-5a69-40d7-ac47-e57edd615b34",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Right Grip Pressed",
@@ -219,7 +389,8 @@
                     "id": "706ad657-2fa5-46cd-b519-c53bf2de151d",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Right Grip Axis",
@@ -227,7 +398,8 @@
                     "id": "1f58bfd8-abcd-431b-befe-352c4e464f22",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Right Thumbstick Touched",
@@ -235,7 +407,8 @@
                     "id": "538130ae-e2d1-4ce8-bbd4-5eb81a2e0492",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Right Thumbstick Pressed",
@@ -243,7 +416,8 @@
                     "id": "bb45b9d9-60f0-4a19-8cdf-052d9718e22e",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Right Thumbstick Axis",
@@ -251,7 +425,8 @@
                     "id": "dcb62131-7b02-4b5c-b086-c288569c0f7f",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Right Touchpad Touched",
@@ -259,7 +434,8 @@
                     "id": "7e1740b7-37a7-42fe-9d35-e2ea0e1340dd",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Right Touchpad Pressed",
@@ -267,7 +443,8 @@
                     "id": "787926ac-c187-48d1-9342-50f096b95154",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Right Touchpad Axis",
@@ -275,7 +452,26 @@
                     "id": "e9abf06e-24a8-473e-a98b-b8a401b65f31",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "HMD Device Position",
+                    "type": "Value",
+                    "id": "f91f4716-30a9-46e2-8f65-51e4e9fa8349",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "HMD Device Rotation",
+                    "type": "Value",
+                    "id": "81eede4b-e8ec-4a54-9db9-a48e41183537",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -391,17 +587,6 @@
                 },
                 {
                     "name": "",
-                    "id": "a93ab05d-6b3c-491d-8afc-25409765427c",
-                    "path": "<XRController>{LeftHand}/home",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Left Home Pressed",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "dccc9c85-ee5e-4da7-989a-9d39e17bddd5",
                     "path": "<XRController>{LeftHand}/menu",
                     "interactions": "",
@@ -418,7 +603,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Left Back",
+                    "action": "Left Back Pressed",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -605,7 +790,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Right Back",
+                    "action": "Right Back Pressed",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -650,6 +835,215 @@
                     "processors": "StickDeadzone",
                     "groups": "",
                     "action": "Right Thumbstick Axis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f79fb942-69db-4a92-aea8-168b0933af7a",
+                    "path": "<XRController>{LeftHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Device Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a93ab05d-6b3c-491d-8afc-25409765427c",
+                    "path": "<XRController>{LeftHand}/home",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Home Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9ca9bf44-e39e-4a6a-a755-e37bf68ad747",
+                    "path": "<XRController>{LeftHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Device Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "139eacb7-7a37-477f-acf1-9c908803e0ee",
+                    "path": "<XRController>{LeftHand}/deviceVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Device Velocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "045f5d12-5a93-40d4-81ef-34053d8927fe",
+                    "path": "<XRController>{LeftHand}/deviceAngularVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Device Angular Velocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01578de2-18d3-4d10-8b7a-d1362488a9b5",
+                    "path": "<XRController>{LeftHand}/deviceAcceleration",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Device Acceleration",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a7775ad6-3e14-4737-85c1-0e02de7d3ee8",
+                    "path": "<XRController>{LeftHand}/deviceAngularAcceleration",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Device Angular Acceleration",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bde0b6cc-047c-4ed9-a3b5-f392ab04210d",
+                    "path": "<XRController>{RightHand}/deviceVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Device Velocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "97d427c9-ea23-49e1-9b2b-bf84a0386fe2",
+                    "path": "<XRController>{RightHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Device Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "14e342b1-1146-46f3-8443-70fd4436b132",
+                    "path": "<XRController>{RightHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Device Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7ecb6688-ca2a-463f-bcf0-383a7a9c18ad",
+                    "path": "<XRController>{RightHand}/deviceAngularVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Device Angular Velocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4105006d-c431-4e22-a099-849dc15701f1",
+                    "path": "<XRController>{RightHand}/deviceAngularAcceleration",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Device Angular Acceleration",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bb504678-23c7-407b-bc48-7e17edd1d5f5",
+                    "path": "<XRController>{RightHand}/deviceAcceleration",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Device Acceleration",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "db95c82a-120b-49f9-9006-2c6b6a5d061e",
+                    "path": "<XRHMD>/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HMD Device Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e9eafe13-75f8-4089-9836-c9dca323f2e7",
+                    "path": "<XRHMD>/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HMD Device Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "705aa206-5921-4e1b-8fcc-b345420758ee",
+                    "path": "<XRController>{LeftHand}/pointerRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Device Pointer Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4d00499a-0ea8-424a-a270-ccb0a28ce262",
+                    "path": "<XRController>{RightHand}/pointerRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Device Pointer Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "31187e91-37d7-4002-b580-f11866ddf5a6",
+                    "path": "<XRController>{RightHand}/pointerPosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Device Pointer Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e59ac280-5e93-408b-8343-26d273c718a0",
+                    "path": "<XRController>{LeftHand}/pointerPosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Device Pointer Position",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
