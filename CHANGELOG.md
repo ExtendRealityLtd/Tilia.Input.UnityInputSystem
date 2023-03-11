@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v2.1.4...v2.2.0) (2023-03-11)
+
+#### Features
+
+* **state:** add ifdefs to determine whether input system is enabled ([2bc0099](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/commit/2bc00998340cdaffb0944467cd08ab2f01dbe145))
+  > The relevant input system code is now wrapped in ifdefs to only run if the Unity Input System is enabled and therefore will provide a warning if the code is run when it is not enabled.
+
 ### [2.1.4](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v2.1.3...v2.1.4) (2023-03-11)
 
 #### Miscellaneous Chores
