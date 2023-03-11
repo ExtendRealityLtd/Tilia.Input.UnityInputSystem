@@ -3,7 +3,9 @@ namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
     using System;
     using UnityEngine;
     using UnityEngine.Events;
+#if ENABLE_INPUT_SYSTEM
     using UnityEngine.InputSystem;
+#endif
 
     /// <summary>
     /// Transforms a <see cref="InputAction.CallbackContext"/> to a <see cref="Vector2"/>.
@@ -16,6 +18,7 @@ namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
         [Serializable]
         public class UnityEvent : UnityEvent<Vector2> { }
 
+#if ENABLE_INPUT_SYSTEM
         /// <summary>
         /// Transforms the given input <see cref="InputAction.CallbackContext"/> to the equivalent <see cref="Vector2"/> value.
         /// </summary>
@@ -25,5 +28,6 @@ namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
         {
             return input.ReadValue<Vector2>();
         }
+#endif
     }
 }

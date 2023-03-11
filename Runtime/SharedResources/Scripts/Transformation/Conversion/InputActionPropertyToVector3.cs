@@ -3,7 +3,9 @@ namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
     using System;
     using UnityEngine;
     using UnityEngine.Events;
+#if ENABLE_INPUT_SYSTEM
     using UnityEngine.InputSystem;
+#endif
 
     /// <summary>
     /// Transforms a <see cref="InputActionProperty"/> to a <see cref="Vector3"/>.
@@ -16,10 +18,12 @@ namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
         [Serializable]
         public class UnityEvent : UnityEvent<Vector3> { }
 
+#if ENABLE_INPUT_SYSTEM
         /// <inheritdoc />
         protected override Vector3 Process(InputAction action)
         {
             return action != null ? action.ReadValue<Vector3>() : default;
         }
+#endif
     }
 }

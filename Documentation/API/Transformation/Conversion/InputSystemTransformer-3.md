@@ -16,8 +16,6 @@ Provides an abstract base to transform a given Unity Input System TInput type to
 
 * System.Object
 * InputSystemTransformer<TInput, TOutput, TEvent>
-* [CallbackContextTransformer<TOutput, TEvent>]
-* [InputActionPropertyTransformer<TOutput, TEvent>]
 
 ##### Namespace
 
@@ -49,8 +47,6 @@ The [InputSystemTransformer<TInput, TOutput, TEvent>.ContextType] event to proce
 public InputSystemTransformer<TInput, TOutput, TEvent>.ContextType ContextToProcess { get; set; }
 ```
 
-[CallbackContextTransformer<TOutput, TEvent>]: CallbackContextTransformer-2.md
-[InputActionPropertyTransformer<TOutput, TEvent>]: InputActionPropertyTransformer-2.md
 [Tilia.Input.UnityInputSystem.Transformation.Conversion]: README.md
 [InputSystemTransformer<TInput, TOutput, TEvent>.ContextType]: InputSystemTransformer-3.ContextType.md
 [InputSystemTransformer.ContextType]: InputSystemTransformer-3.ContextType.md

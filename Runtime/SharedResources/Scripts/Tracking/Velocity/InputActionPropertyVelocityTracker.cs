@@ -1,7 +1,9 @@
 namespace Tilia.Input.UnityInputSystem.Tracking.Velocity
 {
     using UnityEngine;
+#if ENABLE_INPUT_SYSTEM
     using UnityEngine.InputSystem;
+#endif
     using Zinnia.Tracking.Velocity;
 
     /// <summary>
@@ -9,6 +11,7 @@ namespace Tilia.Input.UnityInputSystem.Tracking.Velocity
     /// </summary>
     public class InputActionPropertyVelocityTracker : VelocityTracker
     {
+#if ENABLE_INPUT_SYSTEM
         [Tooltip("The InputActionProperty containing the velocity source.")]
         [SerializeField]
         private InputActionProperty velocitySource;
@@ -34,7 +37,9 @@ namespace Tilia.Input.UnityInputSystem.Tracking.Velocity
                 }
             }
         }
+#endif
 
+#if ENABLE_INPUT_SYSTEM
         [Tooltip("The InputActionProperty containing the angular velocity source.")]
         [SerializeField]
         private InputActionProperty angularVelocitySource;
@@ -60,6 +65,7 @@ namespace Tilia.Input.UnityInputSystem.Tracking.Velocity
                 }
             }
         }
+#endif
 
         /// <summary>
         /// The current velocity.
@@ -84,16 +90,24 @@ namespace Tilia.Input.UnityInputSystem.Tracking.Velocity
 
         protected virtual void OnEnable()
         {
+#if ENABLE_INPUT_SYSTEM
             BindVelocityActions();
             BindAngularVelocityActions();
+            Debug.LogWarning("The Unity Input System is disabled in the player settings or not available to this Unity version.");
+#else
+
+#endif
         }
 
         protected virtual void OnDisable()
         {
+#if ENABLE_INPUT_SYSTEM
             UnbindVelocityActions();
             UnbindAngularVelocityActions();
+#endif
         }
 
+#if ENABLE_INPUT_SYSTEM
         /// <summary>
         /// Binds the velocity performed and canceled actions to the processing methods.
         /// </summary>
@@ -213,5 +227,6 @@ namespace Tilia.Input.UnityInputSystem.Tracking.Velocity
         {
             currentAngularVelocity = Vector3.zero;
         }
+#endif
     }
 }

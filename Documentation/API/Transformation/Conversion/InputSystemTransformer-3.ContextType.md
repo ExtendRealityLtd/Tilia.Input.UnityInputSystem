@@ -9,7 +9,7 @@
 
 # Enum InputSystemTransformer<TInput, TOutput, TEvent>.ContextType
 
-The InputAction.CallbackContext event context.
+The UnityEngine.InputSystem.InputAction.CallbackContext event context.
 
 ##### Namespace
 
