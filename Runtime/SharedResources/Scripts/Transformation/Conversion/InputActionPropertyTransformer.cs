@@ -1,6 +1,7 @@
 namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
 {
     using UnityEngine;
+#if ENABLE_INPUT_SYSTEM
     using UnityEngine.Events;
     using UnityEngine.InputSystem;
 
@@ -114,4 +115,13 @@ namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
             DoTransform(context.action);
         }
     }
+#else
+    public abstract class InputActionPropertyTransformer<TOutput, TEvent> : MonoBehaviour
+    {
+        protected virtual void OnEnable()
+        {
+            Debug.LogWarning("The Unity Input System is disabled in the player settings or not available to this Unity version.");
+        }
+    }
+#endif
 }

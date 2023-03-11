@@ -2,7 +2,9 @@ namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
 {
     using System;
     using UnityEngine.Events;
+#if ENABLE_INPUT_SYSTEM
     using UnityEngine.InputSystem;
+#endif
 
     /// <summary>
     /// Transforms a <see cref="InputActionProperty"/> to a <see cref="float"/>.
@@ -15,10 +17,12 @@ namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
         [Serializable]
         public class UnityEvent : UnityEvent<float> { }
 
+#if ENABLE_INPUT_SYSTEM
         /// <inheritdoc />
         protected override float Process(InputAction action)
         {
             return action != null ? action.ReadValue<float>() : default;
         }
+#endif
     }
 }

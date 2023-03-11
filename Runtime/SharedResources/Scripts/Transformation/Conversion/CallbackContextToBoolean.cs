@@ -2,7 +2,9 @@ namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
 {
     using System;
     using UnityEngine.Events;
+#if ENABLE_INPUT_SYSTEM
     using UnityEngine.InputSystem;
+#endif
 
     /// <summary>
     /// Transforms a <see cref="InputAction.CallbackContext"/> to a <see cref="bool"/>.
@@ -15,6 +17,7 @@ namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
         [Serializable]
         public class UnityEvent : UnityEvent<bool> { }
 
+#if ENABLE_INPUT_SYSTEM
         /// <summary>
         /// Transforms the given input <see cref="InputAction.CallbackContext"/> to the equivalent <see cref="bool"/> value.
         /// </summary>
@@ -24,5 +27,6 @@ namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
         {
             return input.ReadValueAsButton();
         }
+#endif
     }
 }

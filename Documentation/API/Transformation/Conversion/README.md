@@ -36,8 +36,6 @@ Defines the event with the transformed Vector3 value.
 
 #### [CallbackContextTransformer<TOutput, TEvent>]
 
-Provides an abstract base to transform a given InputAction.CallbackContext to the TOutput data type.
-
 #### [InputActionPropertyToBoolean]
 
 Transforms a InputActionProperty to a System.Boolean.
@@ -72,8 +70,6 @@ Defines the event with the transformed Vector3 value.
 
 #### [InputActionPropertyTransformer<TOutput, TEvent>]
 
-Provides an abstract base to transform a given InputAction to the TOutput data type.
-
 #### [InputSystemTransformer<TInput, TOutput, TEvent>]
 
 Provides an abstract base to transform a given Unity Input System TInput type to the TOutput data type.
@@ -82,7 +78,7 @@ Provides an abstract base to transform a given Unity Input System TInput type to
 
 #### [InputSystemTransformer<TInput, TOutput, TEvent>.ContextType]
 
-The InputAction.CallbackContext event context.
+The UnityEngine.InputSystem.InputAction.CallbackContext event context.
 
 [CallbackContextToBoolean]: CallbackContextToBoolean.md
 [CallbackContextToBoolean.UnityEvent]: CallbackContextToBoolean.UnityEvent.md

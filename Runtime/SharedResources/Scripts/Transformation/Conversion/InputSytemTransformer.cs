@@ -3,7 +3,6 @@ namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
     using System;
     using UnityEngine;
     using UnityEngine.Events;
-    using UnityEngine.InputSystem;
     using Zinnia.Data.Attribute;
     using Zinnia.Data.Type.Transformation;
 
@@ -16,7 +15,7 @@ namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
     public abstract class InputSystemTransformer<TInput, TOutput, TEvent> : Transformer<TInput, TOutput, TEvent> where TEvent : UnityEvent<TOutput>, new()
     {
         /// <summary>
-        /// The <see cref="InputAction.CallbackContext"/> event context.
+        /// The <see cref="UnityEngine.InputSystem.InputAction.CallbackContext"/> event context.
         /// </summary>
         [Flags]
         public enum ContextType
