@@ -93,9 +93,8 @@ namespace Tilia.Input.UnityInputSystem.Tracking.Velocity
 #if ENABLE_INPUT_SYSTEM
             BindVelocityActions();
             BindAngularVelocityActions();
-            Debug.LogWarning("The Unity Input System is disabled in the player settings or not available to this Unity version.");
 #else
-
+            Debug.LogWarning("The Unity Input System is disabled in the player settings or not available to this Unity version.");
 #endif
         }
 
