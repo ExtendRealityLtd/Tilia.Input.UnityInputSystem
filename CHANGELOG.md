@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.0](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v2.2.0...v2.3.0) (2023-03-12)
+
+#### Features
+
+* **Tracking:** only show warning message when input system not enabled ([7f0641d](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/commit/7f0641d7d3ed8101751bf017d3205f716947d3e5))
+  > The debug warning message was being shown in the velocity tracker only when the input system was enabled, whereas it should only be shown when the input system is disabled.
+
 ## [2.2.0](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v2.1.4...v2.2.0) (2023-03-11)
 
 #### Features
