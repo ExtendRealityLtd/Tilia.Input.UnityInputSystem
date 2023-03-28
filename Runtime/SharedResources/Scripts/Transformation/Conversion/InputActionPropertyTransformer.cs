@@ -4,6 +4,7 @@ namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
 #if ENABLE_INPUT_SYSTEM
     using UnityEngine.Events;
     using UnityEngine.InputSystem;
+    using Zinnia.Extension;
 
     /// <summary>
     /// Provides an abstract base to transform a given <see cref="InputAction"/> to the <see cref="TOutput"/> data type.
@@ -31,7 +32,7 @@ namespace Tilia.Input.UnityInputSystem.Transformation.Conversion
                     UnbindActions();
                 }
                 source = value;
-                if (Application.isPlaying && isActiveAndEnabled)
+                if (Application.isPlaying && this.CheckIsActiveAndEnabled())
                 {
                     BindActions();
                 }
