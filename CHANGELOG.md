@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.0](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v2.3.4...v2.4.0) (2023-03-28)
+
+#### Features
+
+* **Transformation:** replace isActiveAndEnabled ([edf32a2](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/commit/edf32a224bdc83c71174bd9cd4d9f6b071a0a4b4))
+  > The isActiveAndEnabled call has been replaced with CheckIsActiveAndEnabled as this is more consistent.
+
 ### [2.3.4](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v2.3.3...v2.3.4) (2023-03-28)
 
 #### Miscellaneous Chores
