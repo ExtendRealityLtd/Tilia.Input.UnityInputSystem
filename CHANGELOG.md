@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.4.5](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v2.4.4...v2.4.5) (2023-06-04)
+
+#### Bug Fixes
+
+* **Samples:** provide correct right primary button touch action ([1cbb581](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/commit/1cbb581c78be05e5b03807625b43f12a842d011a))
+  > The RightPrimaryButton_Touch action was mapped to the left primary button touch action, this has now been corrected.
+
 ### [2.4.4](https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem/compare/v2.4.3...v2.4.4) (2023-05-06)
 
 #### Miscellaneous Chores
